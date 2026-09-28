@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:1600px; height:500px; overflow:hidden; }
+  body {
+    font-family:"Noto Sans CJK SC","Noto Sans SC",sans-serif;
+    background:
+      radial-gradient(1000px 520px at 88% 0%, rgba(20,184,166,.20), transparent 58%),
+      radial-gradient(800px 460px at 4% 120%, rgba(56,189,248,.12), transparent 60%),
+      linear-gradient(120deg,#0B1220 0%,#0E1A2B 60%,#0A1626 100%);
+    color:#E6EDF3; position:relative;
+  }
+  .grid{
+    position:absolute; inset:0;
+    background-image:linear-gradient(rgba(148,163,184,.055) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(148,163,184,.055) 1px,transparent 1px);
+    background-size:44px 44px;
+    mask-image:linear-gradient(90deg,transparent,rgba(0,0,0,.85) 20%,rgba(0,0,0,.85) 80%,transparent);
+  }
+  .wrap{ position:relative; height:100%; display:flex; align-items:center; padding:0 72px; gap:56px;}
+  .left{ flex:1.15;}
+  .badges{ display:flex; gap:10px; margin-bottom:22px;}
+  .badge{ font-size:16px; letter-spacing:.5px; padding:7px 16px; border-radius:999px;
+    border:1px solid rgba(94,234,212,.4); color:#5EEAD4; background:rgba(20,184,166,.09);}
+  .badge.gray{ border-color:rgba(148,163,184,.32); color:#9FB0C3; background:rgba(148,163,184,.07);}
+  h1{ font-size:76px; line-height:1.12; font-weight:900; letter-spacing:2px;}
+  h1 .accent{ background:linear-gradient(90deg,#5EEAD4,#38BDF8);
+    -webkit-background-clip:text; background-clip:text; color:transparent;}
+  .sub{ margin-top:18px; font-size:23px; color:#A9B9C9;}
+  .sub b{ color:#C9F7EE;}
+  .pipeline{ flex:.85; display:flex; flex-direction:column; gap:12px;}
+  .row{ display:flex; align-items:center; gap:10px;}
+  .chip{
+    flex:1; text-align:center; font-size:18px; font-weight:600; color:#D7E2EC;
+    background:rgba(13,24,39,.75); border:1px solid rgba(56,189,248,.25);
+    border-radius:10px; padding:13px 10px;
+  }
+  .chip.gate{ border-color:rgba(94,234,212,.45); color:#5EEAD4; background:rgba(20,184,166,.1);}
+  .chip small{ display:block; font-size:12.5px; color:#7C8FA5; font-weight:400; margin-top:2px;}
+  .arr{ color:#5EEAD4; font-size:20px; font-weight:800; width:22px; text-align:center;}
+  .tworows{ display:flex; gap:12px;}
+  .tworows .chip{ flex:1;}
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="wrap">
+    <div class="left">
+      <div class="badges">
+        <span class="badge">Agent Skills Kit · MIT</span>
+        <span class="badge gray">Claude Code</span>
+        <span class="badge gray">Cursor</span>
+        <span class="badge gray">Codex</span>
+      </div>
+      <h1>写 Blog 全能<br><span class="accent">Agent Skills Kit</span></h1>
+      <div class="sub">证据可溯 · 代码实跑 · 多质量门<br>覆盖 <b>技术博客 / 中文社区长文 / 行业深研报告</b> 的全流程技能套件</div>
+    </div>
+    <div class="pipeline">
+      <div class="row">
+        <div class="chip">选题简报<small>读者四问 · 骨架锁定</small></div><span class="arr">→</span>
+        <div class="chip">研究取证<small>来源/主张双台账 · 反证</small></div>
+      </div>
+      <div class="row">
+        <div class="chip">分段写作<small>数字锁定 · 受保护文本</small></div><span class="arr">→</span>
+        <div class="chip">事实核查 + 代码校验<small>离线脚本 · 实跑留证</small></div>
+      </div>
+      <div class="row">
+        <div class="chip">编辑润色<small>去 AI 味 · 保留作者声音</small></div><span class="arr">→</span>
+        <div class="chip gate">发布前质量门<small>0 阻断才放行（内部启发式）</small></div>
+      </div>
+      <div class="tworows">
+        <div class="chip">本地 Markdown / HTML 成稿</div>
+        <div class="chip" style="color:#9FB0C3">上传发布由作者<b style="color:#E6EDF3">手动</b>完成</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

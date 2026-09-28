@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  html,body { width:960px; height:540px; overflow:hidden; }
+  body {
+    font-family:"Noto Sans CJK SC","Noto Sans SC",sans-serif;
+    background:
+      radial-gradient(900px 500px at 82% -10%, rgba(20,184,166,.18), transparent 60%),
+      radial-gradient(700px 420px at 8% 110%, rgba(56,189,248,.14), transparent 60%),
+      linear-gradient(135deg,#0B1220 0%,#0E1A2B 55%,#0A1626 100%);
+    color:#E6EDF3; position:relative;
+  }
+  .grid{
+    position:absolute; inset:0;
+    background-image:linear-gradient(rgba(148,163,184,.06) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(148,163,184,.06) 1px,transparent 1px);
+    background-size:40px 40px;
+    mask-image:linear-gradient(180deg,rgba(0,0,0,.9),transparent 85%);
+  }
+  .wrap{ position:relative; padding:56px 60px; height:100%; display:flex; flex-direction:column; }
+  .badges{ display:flex; gap:10px; }
+  .badge{
+    font-size:13px; letter-spacing:.5px; padding:6px 14px; border-radius:999px;
+    border:1px solid rgba(94,234,212,.35); color:#5EEAD4;
+    background:rgba(20,184,166,.08);
+  }
+  .badge.gray{ border-color:rgba(148,163,184,.3); color:#9FB0C3; background:rgba(148,163,184,.07);}
+  h1{
+    margin-top:26px; font-size:58px; line-height:1.18; font-weight:900; letter-spacing:1px;
+  }
+  h1 .accent{
+    background:linear-gradient(90deg,#5EEAD4,#38BDF8);
+    -webkit-background-clip:text; background-clip:text; color:transparent;
+  }
+  .sub{ margin-top:14px; font-size:18px; color:#9FB0C3; font-weight:400;}
+  .sub b{ color:#C9F7EE; font-weight:700;}
+  .stacks{ margin-top:24px; display:flex; gap:12px; flex-wrap:wrap;}
+  .stack{
+    display:flex; flex-direction:column; gap:3px;
+    background:rgba(13,24,39,.72); border:1px solid rgba(56,189,248,.22);
+    border-radius:12px; padding:11px 16px; min-width:188px;
+  }
+  .stack .cn{ font-size:17px; font-weight:700; color:#E6EDF3;}
+  .stack .slug{ font-size:12px; color:#67E8F9; font-family:ui-monospace,Menlo,monospace;}
+  .flow{ margin-top:auto; display:flex; align-items:center; gap:8px; flex-wrap:wrap;}
+  .stage{
+    font-size:14px; color:#C9D6E2; background:rgba(148,163,184,.09);
+    border:1px solid rgba(148,163,184,.2); border-radius:8px; padding:7px 12px;
+  }
+  .arrow{ color:#5EEAD4; font-size:15px; font-weight:700;}
+  .footline{ margin-top:14px; font-size:13px; color:#7C8FA5; letter-spacing:.5px;}
+  .dot{ color:#5EEAD4;}
+</style>
+</head>
+<body>
+  <div class="grid"></div>
+  <div class="wrap">
+    <div class="badges">
+      <span class="badge">Agent Skills Kit</span>
+      <span class="badge gray">Claude Code · Cursor · Codex</span>
+      <span class="badge gray">MIT License</span>
+    </div>
+    <h1>写 Blog 全能<br><span class="accent">Agent Skills Kit</span></h1>
+    <div class="sub">证据可溯 · 代码实跑 · 多质量门的 <b>研究→写作→交付</b> 全流程技能套件</div>
+    <div class="stacks">
+      <div class="stack"><span class="cn">① 英文技术博客</span><span class="slug">tech-blog-en</span></div>
+      <div class="stack"><span class="cn">② 中文社区文章</span><span class="slug">dev-post-zh</span></div>
+      <div class="stack"><span class="cn">③ 行业深研报告</span><span class="slug">deep-research-report</span></div>
+      <div class="stack"><span class="cn">④ 协作研究写作</span><span class="slug">content-research-writer</span></div>
+    </div>
+    <div class="flow">
+      <span class="stage">选题</span><span class="arrow">→</span>
+      <span class="stage">研究取证</span><span class="arrow">→</span>
+      <span class="stage">列纲</span><span class="arrow">→</span>
+      <span class="stage">分段写作</span><span class="arrow">→</span>
+      <span class="stage">事实核查</span><span class="arrow">→</span>
+      <span class="stage">代码校验</span><span class="arrow">→</span>
+      <span class="stage">润色</span><span class="arrow">→</span>
+      <span class="stage">质量门</span><span class="arrow">→</span>
+      <span class="stage">本地成稿</span>
+    </div>
+    <div class="footline"><span class="dot">●</span> 只交付本地 Markdown / HTML　·　发布动作由作者手动完成　·　评分为内部启发式检查，不构成效果承诺</div>
+  </div>
+</body>
+</html>

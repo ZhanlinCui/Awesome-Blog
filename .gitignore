@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Work products (article working directories are user data, not kit assets)
+workspace/
+drafts/
+*.local.md

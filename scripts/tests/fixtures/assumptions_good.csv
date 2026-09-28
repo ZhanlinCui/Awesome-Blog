@@ -1,0 +1,26 @@
+assumption_id,description,value,unit,source_id,scenario,notes
+BASE_base,2025 base market size,1000,CNY bn,S001,all,official census basis
+GROWTH_base,base annual growth,0.12,ratio,,base,assumption midpoint
+YEARS,forecast horizon,3,years,,all,
+SAM_RATE_base,SAM fraction of TAM,0.40,ratio,,base,
+SOM_RATE_base,SOM fraction of SAM,0.15,ratio,,base,
+BOTTOMUP_UNITS_base,paying customers in millions,140.49,mn,,base,
+BOTTOMUP_ARPU_base,annual revenue per customer in thousand CNY,10,thousand CNY,,base,140.49mn*10k=1404.93bn matches top-down TAM
+BOTTOMUP_SAM_base,reachable customers in millions,56.20,mn,,base,
+BOTTOMUP_SOM_base,obtainable customers in millions,8.43,mn,,base,
+GROWTH_bear,bear annual growth,0.06,ratio,,bear,
+BASE_bear,bear base,1000,CNY bn,S001,bear,
+SAM_RATE_bear,bear SAM fraction,0.35,ratio,,bear,
+SOM_RATE_bear,bear SOM fraction,0.10,ratio,,bear,
+BOTTOMUP_UNITS_bear,bear customers in millions,119.10,mn,,bear,
+BOTTOMUP_ARPU_bear,bear arpu,10,thousand CNY,,bear,
+BOTTOMUP_SAM_bear,bear reachable customers,41.69,mn,,bear,
+BOTTOMUP_SOM_bear,bear obtainable customers,4.17,mn,,bear,
+GROWTH_bull,bull annual growth,0.18,ratio,,bull,
+BASE_bull,bull base,1000,CNY bn,S001,bull,
+SAM_RATE_bull,bull SAM fraction,0.45,ratio,,bull,
+SOM_RATE_bull,bull SOM fraction,0.20,ratio,,bull,
+BOTTOMUP_UNITS_bull,bull customers in millions,164.30,mn,,bull,
+BOTTOMUP_ARPU_bull,bull arpu,10,thousand CNY,,bull,
+BOTTOMUP_SAM_bull,bull reachable customers,73.94,mn,,bull,
+BOTTOMUP_SOM_bull,bull obtainable customers,14.79,mn,,bull,

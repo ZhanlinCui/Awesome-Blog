@@ -1,0 +1,4 @@
+claim_id,statement,claim_type,source_ids,independent_sources,status,disconfirmation,final_wording
+C001,The industry market size was 1234 units in 2024,statistic,S001;S002,2,verified,Searched for decline/contraction reports; none found for the period,"According to the Bureau bulletin and analyst note, the 2024 market was about 1234 units"
+C002,A single-vendor whitepaper claims 90% adoption,fact,S003,1,single_source,Searched competing surveys with lower figures; downgraded wording used,"According to one academic survey, reported adoption reached 90% of respondents"
+C003,Placeholder claim awaiting evidence,fact,,0,placeholder,will research before draft,[需补：该说法的来源与具体数据]

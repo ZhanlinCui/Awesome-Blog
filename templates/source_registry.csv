@@ -1,0 +1,3 @@
+source_id,title,publisher,url,source_type,retrieval_date,original_producer,original_source_id,method,limitations,accessed_lawfully
+S001,示例：2025年中国XX行业统计公报（示例行请删除）,示例机构,https://example.org/report,official_stat,2026-09-28,,,全行业普查；口径为营业收入,2024年数据；不含港澳台,yes
+S002,示例：某媒体转述同一公报（聚合不算独立印证）,示例媒体,https://example.news/repost,aggregator,2026-09-28,示例机构,S001,无独立方法,转载可能失真；与S001不构成独立印证,yes

@@ -1,0 +1,3 @@
+claim_id,statement,claim_type,source_ids,independent_sources,status,disconfirmation,final_wording
+C999,Critical statistic with single source wrongly verified,statistic,S001,1,verified,no real check,wrongly asserted as fact
+C998,Reference to missing source,fact,S404,0,contested,,contested wording

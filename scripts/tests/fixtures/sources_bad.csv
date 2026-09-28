@@ -1,0 +1,3 @@
+source_id,title,publisher,url,source_type,retrieval_date,original_producer,original_source_id,method,limitations,accessed_lawfully
+S001,Bad aggregator without producer,Example News,https://example.news/repost,aggregator,2026-09-01,,,,yes
+S002,Bad date row,Example Org,not-a-url,official_stat,2026/09/01,,,census,none,yes

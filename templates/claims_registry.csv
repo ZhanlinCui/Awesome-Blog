@@ -1,0 +1,3 @@
+claim_id,statement,claim_type,source_ids,independent_sources,status,disconfirmation,final_wording
+C001,示例：2024年XX市场规模为1234亿元（示例行请删除）,statistic,S001,1,single_source,检索“XX市场 下降/负增长”未发现同期反证；仅单一官方源故正文表述为“据XX机构公报”,据XX机构《2025年XX行业统计公报》，2024年该口径市场规模为1234亿元
+C002,示例：未来三年CAGR约15%（示例行请删除）,forecast,S003,1,contested,另有S004给出10%-12%区间；正文采用区间表述,不同机构对2025-2028年CAGR预测区间约为10%-15%

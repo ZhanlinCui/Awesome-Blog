@@ -1,0 +1,4 @@
+source_id,title,publisher,url,source_type,retrieval_date,original_producer,original_source_id,method,limitations,accessed_lawfully
+S001,National Industry Statistical Bulletin 2025,Example Bureau of Statistics,https://example.org/bulletin-2025,official_stat,2026-09-01,,,census of industry revenue,2024 data; excludes remote regions,yes
+S002,Independent analyst note on market growth,Example Research House,https://example.org/note,media,2026-09-02,,,bottom-up model with 300 interviews,narrow sample; sell-side affiliation,yes
+S003,Transparent academic study on adoption rates,Example University,https://example.org/study,academic,2026-09-03,,,randomized survey n=2000,self-reported adoption may overstate,yes
